@@ -38,9 +38,11 @@ Here, we offer the raw simulation/lipid/fixed cell data for the training and tes
 
 Before starting training process, you should launch the `visdom.server` for visualizing.
 
-``` tmux new -s VimServ```
-``` tmux a -t VimServ```
-```python -m visdom.server -port=8097```
+``` 
+tmux new -s VimServ 
+tmux a -t VimServ 
+python -m visdom.server -port=8097
+```
 
 then run the following command:
 
